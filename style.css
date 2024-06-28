@@ -1,11 +1,45 @@
+.main-btn a{
+    color: #FCC822;
+}
 
-/* CUSTOM CLASSES  */
+/* BANNER */
 
+.alert{
+    background-color: #FCC822;
+    color: #ffffff;
+}
+
+/* HEADER SECTION  */
+
+.navbar{
+    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+}
+.logo h5 span{
+    color: #FCC822;
+}
 .main-btn{
     border: 2px solid #FCC822;
     background-color: transparent;
     color: #FCC822;
 }
+.nav-link{
+    color: #a7a3a3;
+    cursor: pointer;
+}
+.nav-item{
+    color: #a7a3a3;
+}
+.navbar button a{
+    color: #FCC822;
+}
+.nav-link:hover{
+    color: #FCC822;
+}
+
+/* HOME SECTION  */
 
 .sec-btn{
     border: none;
@@ -13,54 +47,39 @@
     background-color: #FCC822;
     box-shadow: 2px 2px 5px 2px #e6d08b;
 }
+#home .home-img img{
+  width: 100%;
+}
 
-/* BANNER  */
+/* ABOUT SECTION  */
 
-.banner{
+.about-1 {
+    margin: 30px;
+    padding: 5;
+}
+  
+.about-1 h1 {
+    text-align: center;
+}
+  
+.about-1 p {
+    text-align: center;
+    padding: 3px;
+}
+
+/* FAQ SECTION  */
+
+.accordion-button:not(.collapsed) {
     background-color: #FCC822;
-    color: #ffffff;
-}
-
-/* NAVBAR SECTION  */
-.header{
-    box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
-    position: sticky;
-    top: 0;
-    background-color: #ffffff;
-    cursor: pointer;
-}
-.header ul li{
-    margin: 0px 15px 0px 15px;
-    color: #a7a3a3;
-}
-.logo h5 span{
-    color: #FCC822;
-}
-.header .toggle-bar{
-    display: none;
-}
-.header ul li:hover{
-    color: #FCC822;
-}
-
-/* HOME SECTION  */
-
-#home .image-container img{
-    width: 100%;
+    color: #333333; 
+    outline: none; 
 }
 
 /* MEDIA QUERIES  */
+
 @media screen and (max-width:768px){
     .header ul li, .header button{
         display: none;
     }
-    .toggle-btn, .dropdown-menu{
-        display: block;
-    }
-    .header .toggle-bar{
-        display: block;
-    }
-    #home .container{
-        flex-direction: column;
-    }
+
 }

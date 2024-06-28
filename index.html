@@ -3,61 +3,201 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Skill Sphere</title>
-    <!-- BOOTSTRAP LINK  -->
+    <title>SkillSphere</title>
+    <!-- BOOTSTRAP CDN LINK  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <!-- ICON LINK  -->
+    <!-- BOOTSTRAP ICON LINK  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- CSS FILE  -->
+    <!-- CSS File  -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
 
     <!-- BANNER  -->
 
-    <div class="alert banner text-center mb-0" role="alert">
-        Get ahead with our exclusive offer: 50% off on all courses! Upgrade your skills today without breaking the bank 🎉
+    <div class="alert text-center border-0 border-warning mb-0" role="alert">
+      Unlock your potential with 50% off on all courses at SkillSphere – your gateway to mastering business, technology, and beyond! 🎊
     </div>
 
-    <!-- HEADER SECTION  -->
+    <!-- HEADER SECTION START  -->
 
-    <header class="header d-flex align-items-center justify-content-between">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
         <div class="logo d-flex align-items-center justify-content-center">
-            <i class="bi bi-mortarboard-fill ms-4 mx-3 fs-1"></i>
-            <h5 class="fs-3">Skill<span>Sphere</span></h5>
-        </div>
-        <div class="nav-items d-flex align-items-center justify-content-center">
-            <ul class="d-flex justify-content-center align-items-center list-unstyled m-3 fw-medium">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Services</li>
-                <li>FAQ</li>
-                <li>Contact Us</li>
-            </ul>
-            <button class="main-btn pt-2 pb-2 px-4 me-4 fw-medium">Login</button>
-
-            <i class="bi bi-list me-3 fs-3 fw-bold toggle-bar"></i>
-        </div>
-    </header>
-
-    <!-- HOME SECTION  -->
-
-    <section id="home" class="p-4">
-      <div class="container d-flex align-items-center">
-          <div class="col-md-6">
-              <h1 class="mb-4 ">Learn new concepts for each question</h1>
-              <p class="mb-4">We help you prepare for exams and quizes</p>
-              <button class="sec-btn pt-2 pb-2 px-4 fw-medium me-2 mt-2">Start solving</button>
-              <button class="main-btn pt-2 pb-2 px-4 fw-medium mt-2">Start solving</button>
-          </div>
-
-          <div class="col-md-6 image-container">
-            <img src="images/home.png" alt="home">
-          </div>
+          <i class="bi bi-mortarboard-fill ms-4 mx-3 fs-1"></i>
+          <h5 class="fs-3">Skill<span>Sphere</span></h5>
       </div>
+      <!-- Toggle btn  -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- NAVBAR LINKS  -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item me-3">
+              <a class="nav-link fw-semibold" href="#home">Home</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link fw-semibold" href="#about">About Us</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link fw-semibold" href="#">Services</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link fw-semibold" href="#">FAQ</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link fw-semibold" href="#">Contact Us</a>
+            </li>
+          </ul>
+
+          <button class="main-btn pt-2 pb-2 px-4 me-4 fw-medium"><a href="login.html" class="text-decoration-none">Login</a></button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HEADER SECTION ENDS  -->
+
+    <!-- HOME SECTION START  -->
+
+    <section id="home" class="d-flex">
+        <div class="container d-flex">
+            <div class="row d-flex align-items-center justify-content-between">
+              <div class="col-md-6 col-sm-12 p-lg-5 p-4 pt-5 pt-lg-0">
+                <h1 class="mb-4">Learn new concepts for each question</h1>
+                <p class="mb-4">We help you prepare for exams and quizes</p>
+                <button class="sec-btn pt-2 pb-2 px-4 fw-medium">Start solving</button>
+            </div>
+
+            <div class="col-md-6 col-sm-12 home-img">
+              <img src="images/home.png" alt="">
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOME SECTION ENDS  -->
 
 
-    <!-- BOOTSTRAP JS LINK  -->
+    <!-- ABOUT SECTION  -->
+
+    <section id="about">
+      <div class="about-1">
+        <h1 class="fw-bold align-item-center">About Us</h1>
+  
+        <p class="mb-0">
+          Launched in 15 june 2024, This is a new learning place..
+          <br />
+          Be educated so that you can change the world "Learn, Grow, Succeed"
+          <i class="bi bi-book-half"></i>
+          <i class="bi bi-pencil-fill"></i>
+        </p>
+  
+  
+        <!-- About Us Images -->
+  
+        <div class="container py-7">
+        
+          <div class="row g-3">
+  
+            <div class="col-12 col-md-6">
+              <div class="row g-3">
+                <div class="col-12 col-md-6 pt-3">
+                  <img class="img-fluid rounded shadow-lg" src="images/about_1.svg" alt="" />
+                </div>
+                <div class="col-12 col-md-6 pt-3">
+                  <img class="img-fluid rounded shadow-lg" src="images/about_4.svg" alt="" />
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-12 col-md-6 pt-3">
+              <div class="row g-3">
+                <div class="col-12 col-md-6">
+                  <img class="img-fluid rounded shadow-lg d-none d-md-block d-lg-block d-xl-block" src="images/about_3.svg" alt="" />
+                </div>
+  
+                <div class="col-12 col-md-6">
+                  <img class="img-fluid rounded shadow-lg d-none d-md-block d-lg-block d-xl-block" src="images/about_5.svg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+    </section>
+
+    <!-- ABOUT SECTION ENDS -->
+
+    <!-- FAQ SECTION STARTS -->
+
+    <div class="container" id="faq">
+        <h1 class="text-center m-3 mb-lg-5">Frequently Asked Questions</h1>
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What types of courses are available on your platform?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">We offer a wide range of courses across various fields including technology, business, arts, science, and personal development. Whether you're looking to improve your coding skills, learn about digital marketing, or explore creative writing, we have a course for you.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    How do I sign up for a course on your website?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Enrolling in a course is easy! Simply browse our course catalog, select the course you're interested in, and click the "Enroll Now" button. You will be prompted to create an account or log in if you already have one. Follow the on-screen instructions to complete your enrollment.
+
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    What is the refund policy?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Yes, we offer a 30-day money-back guarantee on all our courses. If you're not satisfied with your course for any reason, you can request a full refund within 30 days of purchase. Please contact our support team to initiate the refund process.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                    Are the courses self-paced?
+                  </button>
+                </h2>
+                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Most of our courses are self-paced, allowing you to learn at your own convenience. You can start and complete the course on your own schedule. However, some courses may have specific start dates and live sessions, which will be clearly indicated in the course description.
+  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                    Do you provide certificates upon completion?
+                  </button>
+                </h2>
+                <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Yes, upon successful completion of a course, you will receive a digital certificate that you can download and share. The certificate will include the course name, your name, and the completion date, and it can be added to your resume or LinkedIn profile.
+                  </div>
+                </div>
+              </div>
+          </div>
+    </div>
+
+    <!-- FAQ SECTION ENDS -->
+
+
+    <!-- BOOTSTRAP JS CDN LINK -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
