@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <!-- BOOTSTRAP ICON LINK  -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        #login{
+            height: 100vh;
+        }
+        #login .login-img img{
+            width: 100%;
+        }
+        .logo h5 span{
+            color: #FCC822;
+        }
+        .sec-btn{
+            border: none;
+            color: #ffffff;
+            background-color: #FCC822;
+            box-shadow: 2px 2px 5px 2px #e6d08b;
+        }
+        .main-btn{
+            border: 2px solid #FCC822;
+            background-color: transparent;
+            color: #FCC822;
+        }
+        #login .login-btn a{
+            text-decoration: none;
+            color: #ffffff;
+        }
+        #login .signup-btn a{
+            text-decoration: none;
+            color: #FCC822; 
+        }
+        #login input{
+            color: #FCC822;
+        }
+        #login input::placeholder{
+            color: #aeabab;
+        }
+    </style>
+  </head>
+  <body>
+    <section id="login" class="d-flex align-items-center justify-content-center">
+        <div class="container">
+            <div class="row p-3">
+                <div class="col-md-6">
+                    <div class="logo d-flex align-items-center justify-content-center mb-5">
+                        <i class="bi bi-mortarboard-fill ms-4 mx-3 fs-1"></i>
+                        <h5 class="fs-3">Skill<span>Sphere</span></h5>
+                    </div>
+
+                    <input type="email" class="form-control mb-4 pt-3 pb-3" id="inputEmail4" placeholder="Email Address">
+
+                    <input type="password" class="form-control pt-3 pb-3" id="inputPassword4" placeholder="Password">
+
+                    <div class="input-group mb-3 mt-5">
+                        <button class="sec-btn pb-2 px-4 me-3 login-btn" type="button"><a href="index.html">Login</a></button>
+                        <button class="main-btn pb-2 px-4 signup-btn" type="button"><a href="signup.html" class="text-decoration-none">Signup</a></button>
+                      </div>
+                </div>
+                <div class="col-md-6 login-img">
+                    <img src="images/login.svg" alt="welcome">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOTSRAP JS LINK  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
