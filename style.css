@@ -16,6 +16,7 @@
     position: sticky;
     top: 0;
     background-color: #ffffff;
+    z-index: 1;
 }
 .logo h5 span{
     color: #FCC822;
@@ -73,6 +74,15 @@
     background-color: #FCC822;
     color: #333333; 
     outline: none; 
+}
+
+/* FOOTER SECTION  */
+
+footer{
+    background-color: #333333;
+}
+footer i{
+    font-size: 25px;
 }
 
 /* MEDIA QUERIES  */
