@@ -68,6 +68,18 @@
     padding: 3px;
 }
 
+/* SERVICES SECTION  */
+
+#services{
+    background-color: #f8d871;
+}
+#services a{
+    background-color: #FCC822
+}
+#services .card{
+    height: 250px;
+}
+
 /* FAQ SECTION  */
 
 .accordion-button:not(.collapsed) {
