@@ -88,6 +88,18 @@
     outline: none; 
 }
 
+/* CONTACT US SECTION  */
+
+#contactUs .image-container{
+    width: 50%;
+}
+#contactUs .image-container img{
+    width: 100%;
+}
+#contactUs textarea, #contactUs input, #contactUs span{
+    border: 1.5px solid grey;
+}
+
 /* FOOTER SECTION  */
 
 footer{
@@ -103,5 +115,12 @@ footer i{
     .header ul li, .header button{
         display: none;
     }
+
+    /* contact us  */
+
+    #contactUs .image-container{
+        width: 100%;
+        margin-top: 1rem;
+    }   
 
 }
